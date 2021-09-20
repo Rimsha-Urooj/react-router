@@ -18,7 +18,7 @@ function App() {
           <Products />
         </Route>
         {/* Adding dynamic paths */}
-        <Route path='/product-detail:productId'>
+        <Route path='/product-detail/:productId'>
           <ProductDetail />
         </Route>
       </main>
